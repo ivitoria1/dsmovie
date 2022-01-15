@@ -17,3 +17,9 @@ export type MoviePage = {
     numberOfElements: number;
     empty: boolean;
 }
+
+export type score = {
+    movieId : string;
+    email : string;
+    score : string
+}
